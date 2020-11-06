@@ -15,7 +15,6 @@ window.onload = () => {
         { "name": "cedula", "value": cedula }
       ]
     }
-    console.log(data)
     let final_data = JSON.stringify(data)
     xhr.open('POST', url);
     xhr.setRequestHeader('Content-Type', 'application/json');
