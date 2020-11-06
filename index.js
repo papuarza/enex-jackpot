@@ -21,7 +21,7 @@ window.onload = () => {
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.onreadystatechange = () => {
         if(xhr.readyState == 4 && xhr.status == 200) { 
-          console.log('papu')
+          window.location.href = "jackpot"
         }
        }
     xhr.send(final_data)
